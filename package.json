@@ -1,0 +1,38 @@
+{
+  "name": "surveyor",
+  "version": "1.0.0",
+  "description": "A Promises-backed TAP test runner",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "TAP",
+    "testing",
+    "Promises"
+  ],
+  "author": "sandro pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blue-tape": "^0.1.11",
+    "bluebird": "^3.1.1",
+    "glob": "^6.0.3",
+    "lodash": "^3.10.1",
+    "pushpin": "^1.0.0",
+    "pushpin-white": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandro-pasquali/surveyor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandro-pasquali/surveyor/issues"
+  },
+  "homepage": "https://github.com/sandro-pasquali/surveyor"
+}
