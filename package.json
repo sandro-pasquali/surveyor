@@ -1,6 +1,6 @@
 {
   "name": "surveyor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Promises-backed TAP test runner",
   "engines": {
     "node": ">=4"
