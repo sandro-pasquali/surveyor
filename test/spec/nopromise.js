@@ -6,5 +6,5 @@ module.exports = function(test, Promise) {
 
     test.equal(this.globalBKey, 'globalBValue', 'nopromise spec was assigned globalB fixture');
 
-    return Promise.delay(3000);
+    return Promise.delay(1000);
 };
