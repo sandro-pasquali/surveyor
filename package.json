@@ -1,6 +1,6 @@
 {
   "name": "surveyor",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A Promises-backed TAP test runner",
   "engines": {
     "node": ">=4"
@@ -21,8 +21,8 @@
     "bluebird": "^3.1.1",
     "glob": "^6.0.3",
     "lodash": "^3.10.1",
-    "pushpin": "^1.0.0",
-    "pushpin-white": "^1.0.1"
+    "pushpin": "^2.0.0",
+    "pushpin-white": "^2.0.0"
   },
   "directories": {
     "test": "test"

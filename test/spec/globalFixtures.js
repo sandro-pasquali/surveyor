@@ -8,5 +8,5 @@ module.exports = function(test, Promise) {
 
     test.equal(this.globalBKey, 'globalBValue', 'Global fixture (B) was converted from Function to Object');
 
-    return Promise.delay(1500);
+    return Promise.delay(300);
 };

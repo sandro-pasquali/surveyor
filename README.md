@@ -9,7 +9,11 @@ From within whichever file will kick off your testing:
 ```
 require('surveyor')({
     testDir: 'pathToTestFolder',
-    specDir: 'specFolder' // Optional. Default is 'spec', eg. {testDir}/spec
+    specDir: 'specFolder', // Optional. Default is 'spec', eg. {testDir}/spec
+    globalFixtures: [ // Optional. These files are expected to return test scopes
+        'globals/A',
+        'globals/B'
+    ]
 });
 ```
 
