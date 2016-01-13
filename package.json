@@ -1,6 +1,6 @@
 {
   "name": "surveyor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Promises-backed TAP test runner",
   "engines": {
     "node": ">=4"
@@ -20,7 +20,7 @@
     "blue-tape": "^0.1.11",
     "bluebird": "^3.1.1",
     "glob": "^6.0.3",
-    "lodash": "^3.10.1",
+    "lodash": "^4.0.0",
     "pushpin": "^2.0.0",
     "pushpin-white": "^2.0.0"
   },

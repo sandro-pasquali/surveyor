@@ -9,6 +9,7 @@ require(path.resolve(__dirname, '../lib'))({
     globalFixtures: [
         'global/globalA',
         'global/globalB'
-    ]
+    ],
+    exitOnFinish: true
 });
 
